@@ -4,3 +4,16 @@ eureka:
       defaultZone: http://localhost:8762/eureka/
 
 message: Hello
+
+---
+spring:
+  profiles: service2
+
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+
+message: Hello
