@@ -12,13 +12,9 @@ spring:
 server:
   port: 8081
 
-message: Bye
-
 ---
 spring:
   profiles: service2
 
 server:
   port: 8082
-
-message: Hello world
